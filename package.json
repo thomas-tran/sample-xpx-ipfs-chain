@@ -1,0 +1,22 @@
+{
+  "name": "testipfs",
+  "version": "1.0.0",
+  "description": "Test xpx ipfs chain sdk",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/app.js"
+  },
+  "author": "Thomas Tran",
+  "license": "ISC",
+  "dependencies": {
+    "tsjs-chain-xipfs-sdk": "^0.2.7"
+  },
+  "engines": {
+    "node": ">=8.9"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.7",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.7.2"
+  }
+}
